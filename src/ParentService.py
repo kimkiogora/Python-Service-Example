@@ -1,14 +1,14 @@
-##################################################
-# @Author		: Kim Kiogora
-# @version		: 2.0 , 15/01/12
+#######################################################
+# @Author	: Kim Kiogora	<kimkkiogora@gmail.com>
+# @version	: 2.0 , 15/01/12
 # @Usage
 #-------
 #Sample template for a backround service in python
-###################################################
+#######################################################
 import time
 from threading import Thread
 from QueueManager import QueuePool
-from PJob import Task
+from ParentTask import Task
 
 global queue
 
