@@ -1,9 +1,9 @@
 ############################################################
-# @Author		: Kim Kiogora
+# @Author	: Kim Kiogora	<kimkiogora@gmail.com>
 # @version	: 2.0 , 14/01/12
 # @Usage
 #-------
-#	This is a threadpool that manages the tasks which are queued every once in a while
+#This is a threadpool that manages the tasks which are queued every once in a while
 ######################################################################################
 
 from Queue import Queue
