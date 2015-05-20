@@ -7,7 +7,7 @@
 #######################################################
 import time
 from threading import Thread
-from QueueManager import QueuePool
+from QueuePool import QueueManager
 from ParentTask import Task
 
 global queue
@@ -20,7 +20,7 @@ class Parent:
 	#An empty constructor
 	def __init__(self):
 		""" Initialize the pool with 2 workers """
-		self.mypool = QueuePool(2)
+		self.mypool = QueueManager(2)
 
 	#Wait a few seconds before proceeding with a task
 	def doWait( self, sec ):
