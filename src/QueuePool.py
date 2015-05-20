@@ -10,7 +10,7 @@ from Queue import Queue
 from threading import Thread
 
 #Pool of threads consuming tasks from a queue"""
-class QueuePool:
+class QueueManager:
 	global queue	
 	#Constructor
 	def __init__(self, num_threads):
