@@ -3,7 +3,7 @@
 # @version	: 2.0 , 15/01/12
 # @Usage
 #-------
-#Sample template for a backround service in python
+#Sample template for a background service in python
 #######################################################
 import time
 from threading import Thread
